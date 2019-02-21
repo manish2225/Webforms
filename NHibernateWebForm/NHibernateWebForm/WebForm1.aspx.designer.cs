@@ -31,6 +31,15 @@ namespace NHibernateWebForm {
         protected global::System.Web.UI.WebControls.TextBox sname;
         
         /// <summary>
+        /// RequiredFieldValidatorName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorName;
+        
+        /// <summary>
         /// fname control.
         /// </summary>
         /// <remarks>
@@ -38,6 +47,33 @@ namespace NHibernateWebForm {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox fname;
+        
+        /// <summary>
+        /// Email control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Email;
+        
+        /// <summary>
+        /// RequiredFieldValidatorEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidatorEmail;
+        
+        /// <summary>
+        /// RegularExpressionValidatorEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorEmail;
         
         /// <summary>
         /// address control.
@@ -56,6 +92,15 @@ namespace NHibernateWebForm {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox mobile;
+        
+        /// <summary>
+        /// RegularExpressionValidatorMobile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidatorMobile;
         
         /// <summary>
         /// insert control.

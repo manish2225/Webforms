@@ -8,6 +8,7 @@
     </id>
     <property name="StudentName"/>
     <property name="FatherName"/>
+    <property name="Email"/>
     <property name="Address"/>
     <property name="Mobile"/>
   </class>
