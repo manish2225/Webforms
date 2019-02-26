@@ -44,7 +44,7 @@ namespace NHibernateWebForm
                     using (ITransaction transaction = session.BeginTransaction())
                     {
                         
-                        var students = session.CreateSQLQuery("select * from StudentDetails").SetResultTransformer(Transformers.AliasToBean<StudentDetails>()).List<StudentDetails>();
+                        var students = session.CreateSQLQuery("select Id,StudentName,FatherName,Email,Address,Mobile from StudentDetails").SetResultTransformer(Transformers.AliasToBean<StudentDetails>()).List<StudentDetails>();
                         if (students.Count > 0)
                         {
                             studentBook.DataSource = students;
@@ -72,7 +72,7 @@ namespace NHibernateWebForm
             {
                 using (ITransaction transaction = session.BeginTransaction())
                 {
-                    var students = session.CreateSQLQuery("select * from StudentDetails").SetResultTransformer(Transformers.AliasToBean<StudentDetails>()).List<StudentDetails>();
+                    var students = session.CreateSQLQuery("select Id,StudentName,FatherName,Email,Address,Mobile from StudentDetails").SetResultTransformer(Transformers.AliasToBean<StudentDetails>()).List<StudentDetails>();
                     if (students.Count > 0)
                     {
                         studentBook.DataSource = students;
