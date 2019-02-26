@@ -14,10 +14,10 @@
             <asp:Label runat="server"  Text="StudentName" />
             <asp:TextBox runat="server" ID="sname" style="width:240px;"/>
             <asp:RequiredFieldValidator ID="RequiredFieldValidatorName" ValidationGroup="insertEdit" runat="server" ControlToValidate="sname" ErrorMessage="Enter Student Name" ForeColor="Red"></asp:RequiredFieldValidator>
-            </br></br>
+            <br/><br/>
 
             <asp:Label runat="server"  Text="FatherName" />
-            <asp:TextBox runat="server" ID="fname" style="width:240px;" /> </br></br>
+            <asp:TextBox runat="server" ID="fname" style="width:240px;" /> <br/><br/>
 
             <asp:Label runat="server"  Text="Email Id" />
             <asp:TextBox runat="server" ID="Email" style="width:240px;" />
@@ -27,15 +27,15 @@
                 ErrorMessage="Invalid Email" 
                 ForeColor="Red" 
                 ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
-            </br></br>
+            <br/><br/>
 
             <asp:Label runat="server"  Text="Address" />
-            <asp:TextBox runat="server" ID="address" style="width:240px;" /></br></br>
+            <asp:TextBox runat="server" ID="address" style="width:240px;" /><br/><br/>
 
             <asp:Label runat="server"  Text="Mobile" />
             <asp:TextBox runat="server" ID="mobile" style="width:240px;"/>
             <asp:RegularExpressionValidator ID="RegularExpressionValidatorMobile" ValidationGroup="insertEdit" runat="server" ControlToValidate="mobile" ErrorMessage="Invalid Mobile No" ForeColor="#FF3300" ValidationExpression="^([0-9]{10})$"></asp:RegularExpressionValidator>
-            </br></br></br>
+            <br/><br/><br/>
 
             <asp:Button ID="insert" runat="server" type="submit" Text="Insert" OnClick="insert_Click" Width="115px" Height="40px" ValidationGroup="insertEdit" />&nbsp&nbsp
             <asp:Button ID="Read" runat="server" type="button" Text="Read" OnClick="Read_Click" Width="113px" Height="39px" CausesValidation="False" />&nbsp&nbsp
